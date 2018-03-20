@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+*{ padding:0; margin:0 auto;}
+body { background:#eeeeee;height:100%;margin: 0 10px 0 10px;font-family:Microsoft YaHei,Simsun; font-size: 14px;}
+ul { list-style-type:none;}
+input { outline:0; vertical-align:middle;font-family:Microsoft YaHei,Simsun;}
+img{border:0;}
+
+/* 第一层导航布局定位 */
+.kq-nav-top{width:1004px;margin:0 auto;}
+.kq-nav-body{width:1002px;height:552px;margin:0 auto;background:url(../images/kq-nav-body-bg.jpg) no-repeat;border:1px solid #ccc;color:#666;}
+.kq-nav-body span>a{color:#666;text-decoration:none;}
+.kq-nav-body span>a:hover{color:#4a97e5 !important;text-decoration:none;}
+
+.kq-body-l{float:left;width:25%;padding:24px 0;}
+.kq-body-l>span{display:block;text-align:center;padding:15px 0;}
+
+.kq-body-c-l{float:left;width:17%;padding-top:76px;}
+.kq-body-c-l>span{display:block;text-align:center;padding:33px 0;}
+
+.kq-body-c-c{float:left;width:16%;padding-top:190px;}
+.kq-body-c-c>em{display:block;font-style:normal;text-align:center;font-size:16px;font-weight:bold;cursor:pointer;}
+.kq-body-c-c>em:hover{color:#4a97e5;}
+
+.kq-body-c-r{float:left;width:17%;padding-top:76px;}
+.kq-body-c-r>span{display:block;text-align:center;padding:33px 0;}
+
+.kq-body-r{float:left;width:25%;padding:28px 0;}
+.kq-body-r>span{display:block;text-align:center;padding:15px 0;}
+
+/* 弹出窗口 */
+.kq-mini-div{width:220px;height:120px;background:#fff;box-shadow:2px 2px 22px 5px #aaa;position:absolute;top:20px;z-index:9;border-radius:10px;padding:15px 20px;display:none;}
+.kq-m-title{color:#333;font-size:16px;margin-bottom:12px;}
+.kq-m-data{color:#666;line-height:170%;}
+
+.kq-big-div{width:700px;height:450px;position:absolute;top:212px;background:#fff;z-index:9;box-shadow:2px 2px 22px 5px #aaa;padding:15px 0 0 54px;display:none;}
+.kq-big-div>img{float:right;margin-right:12px;cursor:pointer;}
+.kq-big-div>li{display:inline-block;width:30%;text-align:center;padding:12px 0;}
+.kq-big-div>li>a>img{margin-bottom:12px;}
+
+.kq-big-div>li>a{text-decoration:none;color:#333;}
+.kq-big-div>li>a:hover{text-decoration:none;color:#ff6812;}
+
+/* 配置动画 */
+.kq-ani1{animation-duration:1s;animation-delay:0.5s;}
+.kq-ani2{animation-duration:1s;animation-delay:0.7s;}
+.kq-ani3{animation-duration:1s;animation-delay:0.9s;}
+.kq-ani4{animation-duration:1s;animation-delay:1.1s;}
+.kq-ani5{animation-duration:1s;animation-delay:1.3s;}
+.kq-ani6{animation-duration:1s;animation-delay:1.5s;}
+
+.kq-ani7{animation-duration:1.8s;animation-delay:1.8s;}
+.kq-ani8{animation-duration:1s;animation-delay:2.5s;}
+.kq-ani9{animation-duration:1s;animation-delay:2.7s;}
+.kq-ani10{animation-duration:1s;animation-delay:2.9s;}
+.kq-ani11{animation-duration:1s;animation-delay:3.1s;}
+
+.kq-ani-1{animation-duration:1s;animation-delay:0.5s;}
+.kq-ani-2{animation-duration:1s;animation-delay:0.7s;}
+.kq-ani-3{animation-duration:1s;animation-delay:0.9s;}
+.kq-ani-4{animation-duration:1s;animation-delay:1.1s;}
+.kq-ani-5{animation-duration:1s;animation-delay:1.3s;}
+.kq-ani-6{animation-duration:1s;animation-delay:1.5s;}
+.kq-ani-7{animation-duration:1s;animation-delay:1.7s;}
+.kq-ani-8{animation-duration:1s;animation-delay:1.9s;}
+.kq-ani-9{animation-duration:1s;animation-delay:2.1s;}
+
+
